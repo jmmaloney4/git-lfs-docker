@@ -8,7 +8,7 @@ on:
       - '**'
   pull_request:
 env:
-  IMAGE_NAME: git-lfs
+  IMAGE_NAME: lfs-server
 
 jobs:
   docker:
