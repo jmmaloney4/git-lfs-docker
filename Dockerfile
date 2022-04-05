@@ -1,4 +1,4 @@
-FROM golang:1.18.0-alpine@sha256:3afd220509acf9866e91932a3a41bf341b8bada82107ef3ecce3422826b98064
+FROM golang:1.18.0-alpine@sha256:a2ca4f4c0828b1b426a3153b068bf32a21868911c57a9fc4dccdc5fbb6553b35
 
 RUN go install github.com/github/lfs-test-server@v0.4.0
 
